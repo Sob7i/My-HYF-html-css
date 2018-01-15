@@ -1,0 +1,94 @@
+#opening {
+  background-color:white;
+}
+#trio {
+  color:red;
+  
+}
+#names {
+  color:red;
+}
+h1 {
+  font:italic 40px monospace ;
+  line-height:1em;
+  padding:5 px
+}
+h2 {
+  font-family:serif;
+  font-size:35px;
+  color:rgb(94, 8, 53);
+  text-decoration:underline;
+  
+}
+.home-list {font-family: cursive;
+  font-style:italic;
+  margin:200px 20px
+}
+#husnu {
+  background-color:white;
+  color:black;
+  margin-right:300px;
+ float:left;
+  width:80%;
+  height:300px;
+  overflow-y:auto;
+  overflow-x:hidden;
+   
+}
+#husnuimg {
+  margin:4px 12px 12px 2px;
+    float:left;
+}
+#ismail {
+   background-color:white;
+  color:black;
+  margin-right:300px;
+ float:left;
+  width:80%;
+  height:300px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#ismailimg {
+   margin:4px 12px 12px 2px;
+    float:left;
+}
+#Aytac {
+   background-color:white;
+  color:black;
+  margin-right:300px;
+ float:left;
+  width:80%;
+  height:300px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+.biography {
+  width:30%;
+hieght:180px;
+overflow-y:auto;
+overflow-x:hidden;}
+
+.photos {
+   background-color:white;
+  margin-right:300px;
+ float:left;
+  width:80%;
+  height:300px;
+  overflow-y:auto;
+  overflow-x:hidden;
+ 
+  
+}
+#photos {
+   width: 150px;
+          border:2px ;
+          margin:15px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#contact {
+  background-color:white;
+  line-height:2em;
+  text-decoration:underline;
+}
