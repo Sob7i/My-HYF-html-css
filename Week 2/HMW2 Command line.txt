@@ -1,0 +1,167 @@
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~
+$ pwd
+/c/Users/Gebruiker
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~
+$ cd Desktop/
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop
+$ ls
+1/  Brackets.lnk*  desktop.ini  images/  pc.lnk*  Slack.lnk*  Trello.lnk*  'week 0'/  'Week 1'/  'Windows 10-updateassistent.lnk'*
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop
+$ mkdir HMW2
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop
+$ cd HMW2/
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ touch blank
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+blank
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ touch greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+blank  greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "Hello
+> Hello
+> Hello
+> Hello
+> Hello" > greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat greetings.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ pwd
+/c/Users/Gebruiker/Desktop/HMW2
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+blank  greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ touch 1.txt 2.txt 3.txt 4.txt 5.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cp greetings.txt 1.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cp greetings.txt 2.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cp greetings.txt 3.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cp greetings.txt 4.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cp greetings.txt 5.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ pwd
+/c/Users/Gebruiker/Desktop/HMW2
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ touch pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt  pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "cat" > pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "dog" >> pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "hamester" >> pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ toch commands.txt
+bash: toch: command not found
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ touch commands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "cat" > commands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "ls" >> commands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ echo "pwd" >> commands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  commands.txt  greetings.txt  pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat pets.txt
+cat
+dog
+hamester
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat commands.txt
+cat
+ls
+pwd
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ touch lovleycommands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  commands.txt  greetings.txt  lovleycommands.txt  pets.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat commands.txt pets.txt sort uniq -u > lovelycommands.txt
+cat: sort: No such file or directory
+cat: uniq: No such file or directory
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ grep -Fvxf pets.txt commands.txt > lovelycommands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat lovelycommands.txt
+ls
+pwd
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ grep -Fvxf commands.txt pets.txt >> lovelycommands.txt
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
+$ cat lovelycommands.txt
+ls
+pwd
+dog
+hamester
+
+Gebruiker@DESKTOP-LRPQORF MINGW32 ~/Desktop/HMW2
