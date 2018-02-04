@@ -1,0 +1,17 @@
+
+
+#names {
+  color:red;
+}
+h1 {
+  font:italic 40px monospace ;
+  line-height:1em;
+  padding:5 px
+}
+h2 {
+  font-family:serif;
+  font-size:35px;
+  color:rgb(94, 8, 53);
+  text-decoration:underline;
+  
+}
